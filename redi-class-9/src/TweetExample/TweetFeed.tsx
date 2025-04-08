@@ -18,7 +18,7 @@ export default function TweetFeed() {
 
   return wizards?.length > 0 ? (
     <div className="tweet-feed">
-      {wizards.map((tweet, index) => (
+      {wizards.slice(0,1).map((tweet, index) => (
         <Tweet key={index} tweet={tweet} />
       ))}
     </div>

@@ -1,5 +1,12 @@
 import { useState } from "react";
-import { getPost, getPosts, createPost, deletePost } from "../api/post";
+import {
+  getPost,
+  getPosts,
+  createPost,
+  deletePost,
+  getPostsUsingFetch,
+  getPostsUsingAxios
+} from "../api/post";
 
 export default function RestApiExample() {
   const [posts, setPosts] = useState<any[]>([]);
@@ -8,6 +15,30 @@ export default function RestApiExample() {
   const getAllPosts = () => {
     clearDisplay();
     getPosts()
+      .then((posts) => {
+        setPosts(posts);
+        console.log("Fetched posts:", posts);
+      })
+      .catch((error) => {
+        console.error("Error fetching posts:", error);
+      });
+  };
+
+  const getAllPostsByFetch = () => {
+    clearDisplay();
+    getPostsUsingFetch()
+      .then((posts) => {
+        setPosts(posts);
+        console.log("Fetched posts:", posts);
+      })
+      .catch((error) => {
+        console.error("Error fetching posts:", error);
+      });
+  };
+
+  const getAllPostsByAxios = () => {
+    clearDisplay();
+    getPostsUsingAxios()
       .then((posts) => {
         setPosts(posts);
         console.log("Fetched posts:", posts);
@@ -71,6 +102,12 @@ export default function RestApiExample() {
         <h1>REST API Example</h1>
         <button onClick={getAllPosts} className="App-button">
           Get Posts
+        </button>
+        <button onClick={getAllPostsByFetch} className="App-button">
+          Get Posts By Fetch
+        </button>
+        <button onClick={getAllPostsByAxios} className="App-button">
+          Get Posts By Axios
         </button>
 
         <button
