@@ -1,0 +1,88 @@
+{
+  "wizards": [
+    {
+      "wizard": "Harry Potter",
+      "handle": "@harrypotter",
+      "posted": "3h ago",
+      "text": "It takes a great deal of bravery to stand up to our enemies, but just as much to stand up to our friends",
+      "avatar": "https://pottertar.framiq.com/assets/examples/pottertar00.png"
+    },
+    {
+      "wizard": "Hermione Granger",
+      "handle": "@hermione",
+      "posted": "1h ago",
+      "text": "Books! And cleverness! There are more important things—friendship and bravery.",
+      "avatar": "https://pottertar.framiq.com/assets/examples/pottertar06.png"
+    },
+    {
+      "wizard": "Ron Weasley",
+      "handle": "@ronweasley",
+      "posted": "5h ago",
+      "text": "Don’t let the muggles get you down.",
+      "avatar": "https://pottertar.framiq.com/assets/examples/pottertar03.png"
+    },
+    {
+      "wizard": "Albus Dumbledore",
+      "handle": "@dumbledore",
+      "posted": "10h ago",
+      "text": "Happiness can be found even in the darkest of times, if one only remembers to turn on the light.",
+      "avatar": "https://pottertar.framiq.com/assets/examples/pottertar07.png"
+    },
+    {
+      "wizard": "Severus Snape",
+      "handle": "@snape",
+      "posted": "2h ago",
+      "text": "Always.",
+      "avatar": "https://pottertar.framiq.com/assets/examples/pottertar02.png"
+    },
+    {
+      "wizard": "Luna Lovegood",
+      "handle": "@lunalovegood",
+      "posted": "7h ago",
+      "text": "You're just as sane as I am.",
+      "avatar": "https://64.media.tumblr.com/15e32a5487f34e13316f047dd273fbe7/6080a53e07b58334-9e/s640x960/0fee1a3e83db0a9e310a31680840627fb485eea9.jpg"
+    },
+    {
+      "wizard": "Neville Longbottom",
+      "handle": "@neville",
+      "posted": "6h ago",
+      "text": "It takes a lot of courage to stand up to your enemies, but even more to stand up to your friends.",
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3ZynUX1-K0O98WJHh5JkiXaIWLpbpY4Rdeg&s"
+    },
+    {
+      "wizard": "Minerva McGonagall",
+      "handle": "@mcgonagall",
+      "posted": "9h ago",
+      "text": "I will have order!",
+      "avatar": "https://pottertar.framiq.com/assets/examples/pottertar01.png"
+    },
+    {
+      "wizard": "Sirius Black",
+      "handle": "@siriusblack",
+      "posted": "12h ago",
+      "text": "The world isn’t split into good people and Death Eaters.",
+      "avatar": "https://cdn.media.amplience.net/s/hottopic/31158182_hi"
+    },
+    {
+      "wizard": "Draco Malfoy",
+      "handle": "@dracomalfoy",
+      "posted": "4h ago",
+      "text": "My father will hear about this!",
+      "avatar": "https://i.pinimg.com/736x/b8/32/e3/b832e32bbc11bd8f96fe13302b0c1f7e.jpg"
+    },
+    {
+      "wizard": "Rubeus Hagrid",
+      "handle": "@hagrid",
+      "posted": "3h ago",
+      "text": "You're a wizard, Harry.",
+      "avatar": "https://i.ebayimg.com/images/g/324AAOSwBKFmIchb/s-l400.jpg"
+    },
+    {
+      "wizard": "Bellatrix Lestrange",
+      "handle": "@bellatrix",
+      "posted": "8h ago",
+      "text": "I killed Sirius Black!",
+      "avatar": "https://cdn2.vendiloshop.it/283538-large_default/harry-potter-funko-pop-movies-vinyl-figure-bellatrix-lestrange-9-cm.jpg"
+    }
+  ]
+}
